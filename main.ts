@@ -22,7 +22,7 @@ basic.forever(function () {
 basic.forever(function () {
     music.play(music.tonePlayable(262, music.beat(BeatFraction.Whole)), music.PlaybackMode.UntilDone)
     if (Distance == 0 || Distance > 1000) {
-        music.play(music.tonePlayable(262, music.beat(BeatFraction.Whole)), music.PlaybackMode.UntilDone)
+        music.play(music.tonePlayable(330, music.beat(BeatFraction.Whole)), music.PlaybackMode.UntilDone)
     } else if (Distance <= 50) {
         basic.pause(250)
     } else {
